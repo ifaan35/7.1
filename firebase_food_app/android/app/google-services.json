@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "56724543746",
+    "project_id": "katalog-makanan-c5e6a",
+    "storage_bucket": "katalog-makanan-c5e6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56724543746:android:bdff2002249a8c642b8a1b",
+        "android_client_info": {
+          "package_name": "com.example.firebase_food_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj7n5J0rT5OVjcfijRYqOfSPRmg6Iv92k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
