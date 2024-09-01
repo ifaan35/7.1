@@ -30,8 +30,6 @@ void main() async {
         initialRoute: AppPages.INITIAL,
         getPages: AppPages.routes,
         theme: ThemeData(
-          primarySwatch: Colors.red,
-          backgroundColor: Colors.white,
           appBarTheme: const AppBarTheme(
             elevation: 0,
             backgroundColor: Colors.white,
@@ -42,6 +40,8 @@ void main() async {
             ),
           ),
           fontFamily: "Poppins",
+          colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.red)
+              .copyWith(background: Colors.white),
         ),
       ),
     ),
